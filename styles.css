@@ -117,8 +117,12 @@ p{
   color: black;
 }
 
+.mdl-cell{
+  width: auto;
+}
+
 .mdl-chip{
-  max-width: 90px;
+  background-color: #90CAF9;
   font-family: 'Montserrat', sans-serif;
 
 }
