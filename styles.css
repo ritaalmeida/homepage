@@ -115,10 +115,13 @@ p{
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   color: black;
-  font-
-
 }
 
+.mdl-chip{
+  max-width: 90px;
+  font-family: 'Montserrat', sans-serif;
+
+}
 
 
 
