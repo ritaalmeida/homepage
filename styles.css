@@ -70,7 +70,7 @@ h1{
   color: white;
   font-size: 100px;
   padding-top: 200px;
-  position: center;
+  
 }
 
 h3{
@@ -78,6 +78,15 @@ h3{
   color: white;
   font-size: 30px;
 }
+
+.mdl-button--raised.mdl-button--colored{
+  background: rgba(207, 216, 220, 0.9);
+}
+
+.mdl-button.mdl-button--raised.mdl-button--colored {
+    color: black;
+}
+
 
 /*** about ***/
 .mdl-card__title{
@@ -126,6 +135,7 @@ p{
   font-family: 'Montserrat', sans-serif;
 
 }
+
 
 
 
