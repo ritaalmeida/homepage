@@ -31,8 +31,7 @@ body::before {
        (min-width: 2049px) and (-webkit-max-device-pixel-ratio: 1.5),
        (min-width: 2049px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('images/IMG_0688.JPG');
-  
+    background-image: url('images/IMG_0688.JPG');  
 }
 
 .mdl-layout.has-drawer .mdl-layout__header-row{
@@ -49,9 +48,13 @@ body::before {
     color: green; 
 } */
 
-.mdl-layout-title{
+.mdl-layout-title, .mdl-button.header_home, .mdl-button.header_home:hover {
   font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: black;
+  text-transform: capitalize;
 }
+
 
 .mdl-layout__header .mdl-navigation__link{
   color: white;
@@ -87,7 +90,9 @@ h3{
   background-color: #90CAF9;
 }
 .mdl-button--primary.mdl-button--primary {
+    font-family: 'Montserrat', sans-serif;
     color: black;
+    text-transform: capitalize;
 }
 
 
