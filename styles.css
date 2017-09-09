@@ -33,7 +33,24 @@ body::before {
   body::before {
     background-image: url('images/IMG_0688.JPG');  
 }
+/***header***/
+/*.mdl-layout__header{
+  background-color: black;
+}*/
+.mdl-layout__header .mdl-navigation__link{
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
 
+.mdl-layout-title, .mdl-button.header_home, .mdl-button.header_home:hover {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: black;
+  text-transform: capitalize;
+}
+
+/***drawer***/
 .mdl-layout.has-drawer .mdl-layout__header-row{
   background-color: black;
   font-family: 'Montserrat', sans-serif;
@@ -46,33 +63,20 @@ body::before {
 .mdl-layout__drawer {
     background: red;  
     color: green; 
-} */
+}*/
 
-.mdl-layout-title, .mdl-button.header_home, .mdl-button.header_home:hover {
-  font-family: 'Montserrat', sans-serif;
+.mdl-layout__drawer {
+  background-color: red;
   color: white;
-  background-color: black;
-  text-transform: capitalize;
 }
 
 
-.mdl-layout__header .mdl-navigation__link{
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-}
-
-
-.name{
-  position: relative;
-  height: 1500px;
-  width: auto;
-}
-
+/***content***/
 h1{
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 100px;
-  padding-top: 200px;
+  font-size: 750%;
+  padding-top: 10%;
   
 }
 
@@ -143,52 +147,3 @@ p{
   font-family: 'Montserrat', sans-serif;
 
 }
-
-$linkedin: #0e76a8;
-
-$md-colour-list: (
-linkedin $linkedin
-);
-
-@each $colour-name, $md-colour in $md-colour-list {
-  .mdl-button.mdl-button--#{$colour-name} {
-      color: rgb(63, 81, 181)
-  }
-  .mdl-button.mdl-button--#{$colour-name}:focus:not(:active) {
-      background-color: $md-colour
-  }
-  .mdl-button--raised.mdl-button--#{$colour-name} {
-      background: $md-colour;
-      color: rgb(255, 255, 255)
-  }
-  .mdl-button--raised.mdl-button--#{$colour-name}:hover {
-      background-color: $md-colour
-  }
-  .mdl-button--raised.mdl-button--#{$colour-name}:active {
-      background-color: $md-colour
-  }
-  .mdl-button--raised.mdl-button--#{$colour-name}:focus:not(:active) {
-      background-color: $md-colour
-  }
-  .mdl-button--raised.mdl-button--#{$colour-name} .mdl-ripple {
-      background: rgb(255, 255, 255)
-  }
-  .mdl-button--fab.mdl-button--#{$colour-name} {
-      background: $md-colour;
-      color: rgb(255, 255, 255)
-  }
-  .mdl-button--fab.mdl-button--#{$colour-name}:hover {
-      background-color: $md-colour
-  }
-  .mdl-button--fab.mdl-button--#{$colour-name}:focus:not(:active) {
-      background-color: $md-colour
-  }
-  .mdl-button--fab.mdl-button--#{$colour-name}:active {
-      background-color: $md-colour
-  }
-  .mdl-button--fab.mdl-button--#{$colour-name} .mdl-ripple {
-      background: rgb(255, 255, 255)
-  }
-}
-
-
