@@ -25,6 +25,16 @@ body::before {
   text-transform: capitalize;
 }
 
+
+.mdl-button.header_home {
+  color: white;
+}
+
+.oi {
+  color: white;
+  text-decoration: none;
+}
+
 /***drawer***/
 
 .mdl-layout__drawer-button.mdl-layout--small-screen-only{
@@ -44,7 +54,7 @@ body::before {
 
 h1{
   font-family: 'Montserrat', sans-serif;
-
+  color: white;
   font-size: 750%;
   padding-top: 10%;
 }
@@ -52,7 +62,7 @@ h1{
 
 h3{
   font-family: 'Montserrat', sans-serif;
-
+  color: white;
   font-size: 250%;
 }
 
