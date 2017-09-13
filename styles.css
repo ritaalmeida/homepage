@@ -26,13 +26,10 @@ body::before {
 }
 
 
-.mdl-button.header_home {
-  color: white;
-}
-
-.oi {
+.mdl-button.header_home, .home_button {
   color: white;
   text-decoration: none;
+
 }
 
 /***drawer***/
@@ -55,15 +52,31 @@ body::before {
 h1{
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 750%;
+  font-size: 11vh;
   padding-top: 10%;
+  text-shadow: 3px 3px black;
+  /*text-shadow: 1px 0px 0px black, 
+                -1px 0px 0px black, 
+                0px 1px 0px black, 
+                0px -1px 0px black;*/
 }
 
 
 h3{
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 250%;
+  font-size: 4vh;
+  text-shadow: 3px 3px black;
+  /*text-shadow: 1px 0px 0px black, 
+                -1px 0px 0px black, 
+                0px 1px 0px black, 
+                0px -1px 0px black;*/
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 4vh;
 }
 
 .mdl-button{
@@ -73,6 +86,7 @@ h3{
 .mdl-button:hover{
   background-color: #90CAF9;
 }
+
 .mdl-button--primary.mdl-button--primary {
     font-family: 'Montserrat', sans-serif;
     color: black;
@@ -87,14 +101,16 @@ h6{
 
 /*** about ***/
 
-.mdl-card__title{
+.first {
+  height: 100vh;
+}
 
+.mdl-card__title{
   font-family: 'Montserrat', sans-serif;
 }
 
 .max-width {
-  max-width: 900px;
-  padding-top: 50px;
+  max-width: 100vh;
   margin: auto;
 }
 
@@ -129,7 +145,10 @@ p{
 }
 
 .mdl-chip{
-  background-color: #90CAF9;
+  background-color: black;
+  color: white;
   font-family: 'Montserrat', sans-serif;
-
+}
+.mdl-chip:hover{
+  background-color: black;
 }

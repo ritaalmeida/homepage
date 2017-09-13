@@ -17,6 +17,9 @@
 
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="javascript/smoothscroll.js"></script>
+
 	</head>
 	<body>
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -25,14 +28,20 @@
 					<!-- Title -->
 					<button class="mdl-button header_home">
 						<span class="font mdl-layout-title">
-							<a class="oi" href="index.html">Rita Almeida</a>
+							<a class="home_button" href="index.html">Rita Almeida</a>
 						</span>
 					</button>
 					<!-- Add spacer, to align navigation to right -->
 					<div class= "mdl-layout-spacer"></div>
 					<!-- Navigations bar -->
 					<nav class="mdl-navigation mdl-layout--large-screen-only">
-						<a class="font mdl-navigation__link" href="about.html">About Me</a>
+						<!--Linkedin-->
+						<a class="mdl-navigation__link" href="https://www.linkedin.com/in/rita-almeida94" target="_blank">
+							<i class="fa fa-linkedin fa-fw"></i></a>
+						<!--GitHub-->
+						<a class="mdl-navigation__link" href="https://github.com/ritaalmeida" target="_blank">
+							<i class="fa fa-github fa-fw"></i></a>
+						<a class="font mdl-navigation__link" href="#about">About Me</a>
 						<a class="font mdl-navigation__link" href="https://github.com/ritaalmeida">Projects</a>
 					</nav>
 				</div>
@@ -40,21 +49,64 @@
 			<div class="mdl-layout__drawer mdl-layout--small-screen-only">
 				<span class="font mdl-layout-title">Rita Almeida</span>
 				<nav class="mdl-navigation">
-					<a class="font mdl-navigation__link" href="about.html">About Me</a>
+					<a class="font mdl-navigation__link" href="#about">About Me</a>
 					<a class="font mdl-navigation__link" href="https://github.com/ritaalmeida">Projects</a>
+					<!--Linkedin-->
+					<a class="mdl-navigation__link" href="https://www.linkedin.com/in/rita-almeida94" target="_blank">
+						<i class="fa fa-linkedin fa-fw"></i> Linkedin</a>
+					<!--GitHub-->
+					<a class="mdl-navigation__link" href="https://github.com/ritaalmeida" target="_blank">
+						<i class="fa fa-github fa-fw"></i> GitHub</a>
 				</nav>
 			</div>
 			<main class="mdl-layout__content">
-				<div class="font name mdl-typography--text-center">	
+				<div class="font name mdl-typography--text-center first">	
 					<h1>Rita Almeida</h1>
 					<h3>Computer Science Student</h3>
-					<div class="mdl-card__actions mdl-card--border ">
-						<a class="mdl-shadow--16dp mdl-button mdl-js-button mdl-button--primary" href="https://github.com/ritaalmeida" target="_blank">
-							<i class="fa fa-linkedin fa-fw"></i> LinkedIn
-						</a>
-						<a class="mdl-shadow--16dp mdl-button mdl-js-button mdl-button--primary" href="https://github.com/ritaalmeida" target="_blank">
-							<i class="fa fa-github fa-fw"></i> GitHub
-						</a>
+				</div>
+				
+				<a name="about"></a>
+				<div class="mdl-grid max-width">
+					<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp backgr-cell">
+						<h4 class="mdl-card__title">About Me</h4>
+						<div class="mdl-grid ">
+							<div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding ">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		                    </div>
+						</div>
+						<h4 class="mdl-card__title">Skills</h4>
+							<div class="mdl-cell">
+								<span class="mdl-chip mdl-typography--text-center">
+						    		<span class="mdl-chip__text ">Java</span>
+								</span>
+								<span class="mdl-chip mdl-typography--text-center">
+						    		<span class="mdl-chip__text ">C/C++</span>
+								</span>
+								<span class="mdl-chip mdl-typography--text-center">
+						    		<span class="mdl-chip__text ">Python</span>
+								</span>
+								<span class="mdl-chip mdl-typography--text-center">
+						    		<span class="mdl-chip__text ">HTML</span>
+								</span>
+								<span class="mdl-chip mdl-typography--text-center">
+						    		<span class="mdl-chip__text ">CSS</span>
+								</span>
+								<span class="mdl-chip mdl-typography--text-center">
+						    		<span class="mdl-chip__text ">Material Design Lite</span>
+								</span>
+								<span class="mdl-chip mdl-typography--text-center">
+						    		<span class="mdl-chip__text ">Phaser</span>
+								</span>
+								<span class="mdl-chip mdl-typography--text-center">
+						    		<span class="mdl-chip__text ">SQL</span>
+								</span>
+							</div>
+						<h6>You can grab my CV <a href="https://www.dropbox.com/s/9ju6jotl5gmhfdf/CV.pdf?dl=1" target="_top"><strong>here</strong></a>.
+							<br>
+							You can contact me at Google Mail: <a href="mailto:almeida.rita94@gmail.com"><strong>almeida.rita94</strong></a>.
+						</h6>
+						</div>
 					</div>
 				</div>
 			</main>
