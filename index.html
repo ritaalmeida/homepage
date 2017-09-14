@@ -14,7 +14,6 @@
 
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<!--<script type="text/javascript" src="javascript/smoothscroll.js"></script> -->
 
 	</head>
@@ -25,7 +24,7 @@
 					<!-- Title -->
 					<button class="mdl-button header_home">
 						<span class="font mdl-layout-title">
-							<a class="home_button" href="index.html">Rita Almeida</a>
+							<a id="index" class=" smooth home_button" href="#index">Rita Almeida</a>
 						</span>
 					</button>
 					<!-- Add spacer, to align navigation to right -->
@@ -38,7 +37,7 @@
 						<!--GitHub-->
 						<a class="mdl-navigation__link" href="https://github.com/ritaalmeida" target="_blank">
 							<i class="fa fa-github fa-fw"></i></a>
-						<a href="#about" class="smoothscroll font mdl-navigation__link">About Me</a>
+						<a class="smooth font mdl-navigation__link" href="#about">About Me</a>
 						<a class="font mdl-navigation__link" href="https://github.com/ritaalmeida">Projects</a>
 					</nav>
 				</div>
@@ -47,7 +46,7 @@
 			<div class="mdl-layout__drawer mdl-layout--small-screen-only">
 				<span class="font mdl-layout-title">Rita Almeida</span>
 				<nav class="mdl-navigation">
-					<a class="font mdl-navigation__link" href="#about" class="smoothscroll">About Me</a>
+					<a class="font mdl-navigation__link" href="#about" class="smoothScroll">About Me</a>
 					<a class="font mdl-navigation__link" href="https://github.com/ritaalmeida">Projects</a>
 					<!--Linkedin-->
 					<a class="mdl-navigation__link" href="https://www.linkedin.com/in/rita-almeida94" target="_blank">
@@ -62,10 +61,11 @@
 					<h1>Rita Almeida</h1>
 					<h3>Computer Science Student</h3>
 				</div>
-				<a name="about"></a>
+				<a id="about"></a>
 				<div class="mdl-grid max-width">
 					<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp backgr-cell">
-						<h4 class="mdl-card__title "><a name="about"></a>About Me</h4>
+					
+						<h4 class="mdl-card__title ">About Me</h4>
 						<div class="mdl-grid ">
 							<div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding ">
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -105,8 +105,11 @@
 						</h6>
 					</div>
 				</div>
+				 </div>
 			</main>
 		</div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		
 	</body>
 	<script type="text/javascript" src="javascript/smoothscroll.js"></script>
 </html>
