@@ -123,11 +123,11 @@ h6{
 }
 
 .no-bottom-padding {
-  padding-bottom: 0;
+  padding-bottom: 75px;
 }
 
 .padding-top {
-  padding: 50px 0 0;
+  padding: 0 75px 0;
 }
 
 .backgr-cell{

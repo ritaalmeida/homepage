@@ -14,8 +14,6 @@
 
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-		<!--<script type="text/javascript" src="javascript/smoothscroll.js"></script> -->
-
 	</head>
 	<body>
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -29,31 +27,28 @@
 					</button>
 					<!-- Add spacer, to align navigation to right -->
 					<div class= "mdl-layout-spacer"></div>
-					<!-- Navigations bar -->
+					<!-- Navigations bar  LARGE SCREEN-->
 					<nav class="mdl-navigation mdl-layout--large-screen-only">
 						<!--Linkedin-->
 						<a class="mdl-navigation__link" href="https://www.linkedin.com/in/rita-almeida94" target="_blank">
 							<i class="fa fa-linkedin fa-fw"></i></a>
-						<!--GitHub-->
-						<a class="mdl-navigation__link" href="https://github.com/ritaalmeida" target="_blank">
-							<i class="fa fa-github fa-fw"></i></a>
+						<!-- About -->
 						<a class="smooth font mdl-navigation__link" href="#about">About Me</a>
-						<a class="font mdl-navigation__link" href="https://github.com/ritaalmeida">Projects</a>
+						<!--Projects / GitHub-->
+						<a class="font mdl-navigation__link" href="https://github.com/ritaalmeida"><i class="fa fa-github fa-fw"></i> Projects</a>
 					</nav>
 				</div>
 			</header>
-
+			<!-- bar SMALL SCREEN-->
 			<div class="mdl-layout__drawer mdl-layout--small-screen-only">
 				<span class="font mdl-layout-title">Rita Almeida</span>
 				<nav class="mdl-navigation">
-					<a class="font mdl-navigation__link" href="#about" class="smoothScroll">About Me</a>
-					<a class="font mdl-navigation__link" href="https://github.com/ritaalmeida">Projects</a>
+					<!-- About -->
+					<a class="smooth font mdl-navigation__link" href="#about">About Me</a>
+					<!--Projects / GitHub-->
+					<a class="font mdl-navigation__link" href="https://github.com/ritaalmeida"><i class="fa fa-github fa-fw"></i> Projects</a>
 					<!--Linkedin-->
-					<a class="mdl-navigation__link" href="https://www.linkedin.com/in/rita-almeida94" target="_blank">
-						<i class="fa fa-linkedin fa-fw"></i> Linkedin</a>
-					<!--GitHub-->
-					<a class="mdl-navigation__link" href="https://github.com/ritaalmeida" target="_blank">
-						<i class="fa fa-github fa-fw"></i> GitHub</a>
+					<a class="mdl-navigation__link" href="https://www.linkedin.com/in/rita-almeida94" target="_blank"><i class="fa fa-linkedin fa-fw"></i> Linkedin</a>
 				</nav>
 			</div>
 			<main class="mdl-layout__content">
@@ -61,13 +56,12 @@
 					<h1>Rita Almeida</h1>
 					<h3>Computer Science Student</h3>
 				</div>
-				<a id="about"></a>
-				<div class="mdl-grid max-width">
+				<a id="about" class="first"></a>
+				<div class="mdl-grid max-width no-bottom-padding">
 					<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp backgr-cell">
-					
 						<h4 class="mdl-card__title ">About Me</h4>
 						<div class="mdl-grid ">
-							<div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding ">
+							<div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text ">
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		                    </div>
@@ -108,8 +102,7 @@
 				 </div>
 			</main>
 		</div>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>	
 	</body>
 	<script type="text/javascript" src="javascript/smoothscroll.js"></script>
 </html>
