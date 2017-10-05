@@ -138,6 +138,7 @@ p{
   font-family: 'Montserrat', sans-serif;
   font-size: 150%;
   color: black;
+  text-align: justify;
 }
 
 .mdl-cell{
@@ -152,3 +153,4 @@ p{
 .mdl-chip:hover{
   background-color: black;
 }
+
